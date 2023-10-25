@@ -8,7 +8,7 @@
 .bg{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/Midterm Project/img/tourist.jpg');
+    background-image: linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/MidtermProject/img/tourist.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -70,15 +70,15 @@
 
 
 .img-1{
-    background-image: url('/Midterm Project/img/church.jpg');
+    background-image: url('/MidtermProject/img/church.jpg');
 }
 
 .img-2{
-    background-image: url('/Midterm Project/img/basi.jpg');
+    background-image: url('/MidtermProject/img/basi.jpg');
 }
 
 .img-3{
-    background-image: url('/Midterm Project/img/flower.jpg');
+    background-image: url('/MidtermProject/img/flower.jpg');
 }
 
 p{
