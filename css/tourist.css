@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/Midterm Project/img/tourist.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 35px;
+    align-items: center;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative ;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.imgbx {
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+.img-1{
+    background-image: url('/Midterm Project/img/church.jpg');
+}
+
+.img-2{
+    background-image: url('/Midterm Project/img/basi.jpg');
+}
+
+.img-3{
+    background-image: url('/Midterm Project/img/flower.jpg');
+}
+
+p{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    color: bisque;
+}
+
+
+
