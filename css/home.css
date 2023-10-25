@@ -7,7 +7,7 @@
 .bg{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/Midterm Project/img/piddig.jpg');
+    background-image:linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/MidtermProject/img/piddig.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -84,19 +84,19 @@ p{
 }
 
 .card1{
-    background-image: url('/Midterm Project/img/revolt\ 1.jpg');
+    background-image: url('/MidtermProject/img/revolt\ 1.jpg');
 }
 
 .card2{
-    background-image: url('/Midterm Project/img/revolt\ 2.jpg');
+    background-image: url('/MidtermProject/img/revolt\ 2.jpg');
 }
 
 .card3{
-    background-image: url('/Midterm Project/img/piddig.jpg');
+    background-image: url('/MidtermProject/img/piddig.jpg');
 }
 
 .card4{
-    background-image: url('/Midterm Project/img/sunflower.jpg');
+    background-image: url('/MidtermProject/img/sunflower.jpg');
 }
 
 .card:hover{

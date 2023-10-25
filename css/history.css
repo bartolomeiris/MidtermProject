@@ -7,7 +7,7 @@
 .bg{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/Midterm Project/img/history\ 2.jpg');
+    background-image:linear-gradient(rgba(50, 50, 50, 0.75),rgba(50, 50, 50, 0.75)), url('/MidtermProject/img/history\ 2.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -64,7 +64,7 @@
         margin-bottom: 10px;
         background-size: cover;
         border-radius: 15px;
-    background-image: url('/Midterm Project/img/bayan.jpg');
+    background-image: url('/MidtermProject/img/bayan.jpg');
 }
 
 h1{
