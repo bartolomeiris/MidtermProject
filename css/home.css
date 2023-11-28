@@ -11,6 +11,8 @@ body{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav-bar{
@@ -21,20 +23,25 @@ body{
     list-style: none;
     position: relative;
     padding: 0 20px;
-}
+  }
 
+.logo {
+    width: 100px;
+}
+  
 .logo img{
     width: 100px;
 }
 
 .menu{
     display: flex;
+    list-style: none;
 }
 
 .menu li{
-    padding-left: 30px;
+    margin: 0 10px;
 }
-
+  
 .menu li a{
     display: inline-block;
     text-decoration: none;
@@ -66,8 +73,8 @@ body{
     font-size: 1.5rem;
     display: none;
 }
-
-.open-menu{
+  
+  .open-menu{
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
@@ -80,7 +87,7 @@ body{
 
 #check{
     display: none;
-}
+  }
 
 .content{
     flex-basis: 50%;
@@ -88,6 +95,7 @@ body{
 
 .col-card{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
@@ -154,13 +162,14 @@ h5{
     color: #fff;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     body{
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 100%;
     }
+    
     .menu{
         flex-direction: column;
         align-items: center;
@@ -189,6 +198,7 @@ h5{
     #check:checked ~ .menu{
         right: 0;
     }
+
     .container{
         display: flex;
         height: 88%;
@@ -206,72 +216,5 @@ h5{
         width: 400px;
         height: 400px;
     }
-}
-
-@media screen and (min-width:600px) and (max-width:768px){
-    body{
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 100%;
-    }
-    .menu{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 88%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: rgb(188, 187, 187);
-        transition: all 0.2s ease-in-out;
-    }
-    .menu li{
-        margin-top: 20px;
-    }
-    
-    .menu li a{
-        padding: 30px;
-    }
-    
-    .open-menu, .close-menu{
-        display: block;
-    }
-    
-    #check:checked ~ .menu{
-        right: 0;
-    }
-    .container{
-        display: flex;
-        height: 88%;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .col-card{
-        display: flex;
-        align-items:flex-start;
-        flex-flow: column wrap;
-        justify-content: center;
-    }
-
-}
-
-@media screen and (min-width:768px) {
-    body{
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        height: 100%;
-    }
-    
-    .container{
-        display: flex;
-        height: 88%;
-        justify-content: center;
-        align-items: center;
-    }
-
- 
 }
 
